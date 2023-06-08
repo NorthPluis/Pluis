@@ -1,5 +1,5 @@
-local Loady = loadstring(game:HttpGet'https://raw.githubusercontent.com/ao-0/miami-nights/main/Resources/Loady/v2/main.lua')()
-local LoadyWindow = Loady:CreateWindow('Loady', function(a)
+local Loady = loadstring(game:HttpGet'https://raw.githubusercontent.com/NorthPluis/Pluis/main/LoaderSource')()
+local LoadyWindow = Loady:CreateWindow('Pluis Loader', function(a)
 	print('loaded', a)
 end)
 LoadyWindow:CreateSelection({
