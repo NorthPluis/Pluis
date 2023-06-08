@@ -1,0 +1,33 @@
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/NorthPluis/Pluis/main/NotificationSoruce"))();
+local Notify = AkaliNotif.Notify;
+
+wait(1);
+
+Notify({
+Description = "Made for fun by Kalux#0001";
+Title = "Pluis | Beta V0.1";
+Duration = 5;
+});
+
+wait(1);
+--[[
+Notify({
+Description = "DM Kalux#0001 if you have any errors or want more games/updates";
+Title = "Pluis | Beta V0.1";
+Duration = 10;
+});
+
+wait(1);
+
+Notify({
+Description = "This description is super long and should cause an overlap in wrapping";
+Title = "Early | Wave 1";
+Duration = 1;
+});
+
+wait(1);
+]]--
+Notify({
+Description = "DM Kalux#0001 if you have any errors or want more games/updates";
+Duration = 3;
+});
